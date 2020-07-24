@@ -9,6 +9,7 @@ class PyfileInfo:
     def __init__(self, file):
         self.file_name = file
         self.total_line_num = 0
+        self.total_blubird_num = 100
         self.blank_line_num = 0
         self.comment_line_num = 0
         
